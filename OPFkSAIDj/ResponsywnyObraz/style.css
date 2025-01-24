@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 600px){
+    img{
+        width: 80%;
+    }
+}
+@media (min-width: 900px){
+    img{
+        width: 60%;
+    }
+}
